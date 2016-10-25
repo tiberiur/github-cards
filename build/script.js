@@ -38,7 +38,7 @@ var Form = React.createClass({
         return React.createElement(
             "form",
             { onSubmit: this.handleSubmit },
-            React.createElement("input", { placeholder: "github login", ref: "login" }),
+            React.createElement("input", { placeholder: "github username", ref: "login" }),
             React.createElement(
                 "button",
                 null,
